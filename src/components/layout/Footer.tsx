@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Instagram, Facebook, Twitter } from 'lucide-react';
-
 export const Footer = () => {
-  return (
-    <footer className="bg-white border-t border-gray-200">
+  return <footer className="bg-white border-t border-gray-200">
       <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and social links */}
@@ -68,9 +65,7 @@ export const Footer = () => {
               <li>
                 <Link to="/careers" className="text-sm text-gray-600 hover:text-gray-900">Careers</Link>
               </li>
-              <li>
-                <Link to="/stores" className="text-sm text-gray-600 hover:text-gray-900">Stores</Link>
-              </li>
+              
             </ul>
           </div>
 
@@ -102,6 +97,5 @@ export const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
