@@ -5,14 +5,7 @@ import { Link } from 'react-router-dom';
 export const Hero = () => {
   return (
     <div className="relative overflow-hidden">
-      <div className="absolute inset-0">
-        <img
-          src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=2000&q=80"
-          alt="Hero background"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-      </div>
+      <div className="absolute inset-0 bg-noisy-black"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 md:py-40 flex flex-col items-center justify-center text-center">
         <p className="text-sm sm:text-base text-white font-medium tracking-widest mb-4">
           REFRESH YOUR WARDROBE WITH OUR LATEST COLLECTION
