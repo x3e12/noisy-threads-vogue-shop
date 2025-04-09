@@ -7,7 +7,7 @@ export const Hero = () => {
     <div className="relative overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=2000&q=80"
+          src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=2000&q=80"
           alt="Hero background"
           className="w-full h-full object-cover"
         />
